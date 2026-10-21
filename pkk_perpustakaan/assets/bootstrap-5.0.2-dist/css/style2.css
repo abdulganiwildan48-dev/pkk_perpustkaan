@@ -1,0 +1,222 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+    min-height: 100vh;
+}
+
+.site-header{
+    background: linear-gradient(135deg, #1f3a5f 0%, #27517f 100%);
+    color: white;
+}
+
+.site-title{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.site-tagline{
+    color: rgba(255,255,255,0.85);
+    margin: 0;
+}
+
+.header-actions .btn{
+    min-width: 110px;
+}
+
+.hero{
+    background: linear-gradient(135deg, #4b8fbf 0%, #77b6f0 100%);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 18px 40px rgba(21, 101, 154, 0.12);
+}
+
+.books-section h2{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.books-section p{
+    color: #546e7a;
+}
+
+.book-card{
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.book-card-image{
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef3f8;
+}
+
+.book-card-image img{
+    max-width: 100%;
+    max-height: 220px;
+    object-fit: contain;
+}
+
+.book-placeholder{
+    color: #7b8a94;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem;
+}
+
+.card-body{
+    padding: 1.25rem;
+}
+
+.book-card .btn{
+    border-radius: 999px;
+    padding: 0.75rem 1rem;
+}
+
+.book-card .btn-outline-secondary:disabled{
+    background: #e9ecef;
+    border-color: #ced4da;
+    color: #6c757d;
+}
+
+nav{
+    background: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #1abc9c;
+}
+
+nav.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #34495e;
+    border-right: 1px solid rgba(255,255,255,.1);
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+nav.sidebar a{
+    display: block;
+    width: 100%;
+    padding: 14px 20px;
+    margin: 0;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+nav.sidebar a:hover{
+    background: rgba(255,255,255,.08);
+    color: #1abc9c;
+}
+
+.admin-page header{
+    margin-left: 220px;
+    padding: 20px 20px 10px;
+    background: #2c3e50;
+    color: white;
+}
+
+.admin-page .admin-content{
+    margin-left: 240px;
+    padding: 20px;
+    min-height: calc(100vh - 80px);
+}
+
+.container{
+    padding: 20px;
+}
+
+.search{
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.search input{
+    padding: 10px;
+    width: 250px;
+}
+
+.search button{
+    color: white;
+    background: #1abc9c;
+    border: none;
+    padding: 10px;
+}
+
+.card{
+    width: 200px;
+    background: white;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card button{
+    border: none;
+    background: #1abc9c;
+    color: white;
+    padding:8px;
+    margin-top: 10px;
+}
+.card button:disabled{
+    background: #95a5a6;
+    cursor: not-allowed;
+}
+.container-detail{
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    width: 180px;
+    height: 200px;
+}
+
+.container-detail button{
+    border: none;
+    background: #14c950;
+    color: white;
+    padding:8px;
+    margin-top: 10px;
+}
+
+.btn-keluar{
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.btn-L{
+    text-align: right;
+}
+
+.btn-login{
+    background-color: #36694c !important;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
